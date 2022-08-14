@@ -1,0 +1,156 @@
+
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+nav{
+    position:sticky;
+}
+
+
+.navbar-nav > li{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.products{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-left: 15px;
+
+    text-align: center;
+    font-size: 20px;
+    padding:10px ;
+}
+.boss{
+    background-color: grey;
+    padding: 30px;
+
+}
+.care{
+    background-color: grey;
+    
+    padding-left: 60px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+
+}
+.products img {
+    padding-bottom: 20px;
+}
+@media screen and (max-width:500px){
+    .products{
+        display: block;
+        padding-top:20px;
+
+    }
+
+
+}
+
+
+.container{
+    
+    padding-left: 90px;
+    padding-top:50px;
+    float: left;
+    width: 50%;
+    
+    
+}
+
+
+
+article{
+    float: right;
+    width: 50%;
+
+    
+}
+    
+
+@media only screen and (max-width:600px){
+    .container{
+        float: none;
+        width: 100%;
+    }
+    article{
+        display: none;
+    }
+    aside{
+        display: none;
+    }
+}
+aside img{
+    width: 40%;
+    padding-top: 60px;
+    padding-left: 90px;
+    clear: both;
+    float: left;
+    
+    
+
+}
+.jack{
+    float: right;
+    width: 40%;
+    padding-top: 70px;
+    text-align: center;
+    margin-right: 200px;
+}
+
+footer{
+    clear: both;
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+    
+
+}
+.foof{
+    padding-top: 50px;
+}
+.foot{
+    padding-top: 50px;
+}
+.vk{
+    padding: 10px;
+}
+.vkm{
+    padding: 10px;
+}
+
+    
+    
+    
+    
+
+
+
+    
+
+
+
+        
+
+
+
+
+
+
+
+
+  
+    
+
+
+
